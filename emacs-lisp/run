@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec emacs -Q --batch --load $(dirname $0)/${STEP:-stepA_mal}.el "${@}"
